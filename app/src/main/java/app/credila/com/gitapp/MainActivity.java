@@ -16,5 +16,11 @@ public class MainActivity extends AppCompatActivity {
         //Add Button
         //This is also branch change
         //
+        init();
+    }
+
+    private void init()
+    {
+        System.out.println("This is Initialization");
     }
 }
